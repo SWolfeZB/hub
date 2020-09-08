@@ -1,0 +1,102 @@
+body {
+	background-image: url("Images/background4.jpg");
+	background-color: #cccccc;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;		
+}
+
+#name	{
+	height: 5vw;
+	width: 20%;
+	text-align: left;
+	background-color: white;
+	margin: 0px 0px 0px 80%;
+	padding-left: 1vw;
+	font-size: 3vw;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	position: fixed;
+}
+
+#profile	{
+	border-radius: 100%;
+	border: medium solid white;
+	height: 9vw;
+	width: 9vw;
+	position: fixed;
+	margin: 0px 0px 0px 1vw;
+}
+
+#info	{
+	background-color: white;
+	width: 45vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-bottom: 1vw;
+	padding-top: 1vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutMe	{
+	text-align: center;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 2em;
+}
+
+#bio	{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+#photosnlinks	{
+	padding-top: 5%;
+}
+
+#stage	{
+	height: 30vw;
+	width: 45vw;
+	border: medium solid white;
+}
+
+#campus	{
+	height: 40vw;
+	width: 40vw;
+	margin-top: 3%;
+	float: right;
+	border: medium solid white;
+}
+
+.button1 {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 1em;
+	float: right;
+	margin-top: 10%;
+	margin-right: 10vw;
+}
+
+.button2 {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 1em;
+	float: left;
+	margin-top: 20%;
+	margin-left: 15vw;
+}
