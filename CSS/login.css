@@ -1,0 +1,47 @@
+.bg {
+	background-image: url("../Images/background4.jpg");
+	background-color: #cccccc;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;		
+}
+
+.center-me	{
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.form-signin	{
+	padding: 40px;
+	text-align: center;
+	border-radius: 30%;
+}
+
+#LoginLogo	{
+	border-radius: 100%;
+	border: medium solid black;
+	height: 4vw;
+	width: 4vw;
+	margin: 0px 0px 0px 0px;
+}
+
+.mb-3	{
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+.carouselRow	{
+	height: 70vh;
+	width: 70vh;
+	margin-left: auto;
+	margin-top: 25vh;
+}
+
+.my-auto	{
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
