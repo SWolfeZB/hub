@@ -25,7 +25,7 @@ if  (isset($_POST['signup-submit']))    {
             mysqli_stmt_execute($stmt);
             mysqli_stmt_store_result($stmt);
             $check = mysqli_stmt_num_rows($stmt);
-            if ($check < 0) {
+            if ($check > 0) {
                 header("Location: ../signup.php?error=UsernameTaken");
                 exit(); 
             }
