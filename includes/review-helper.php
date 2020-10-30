@@ -7,7 +7,7 @@ if(isset($_POST['review-submit']))  {
     $uname = $_SESSION['username'];
     $title = $_POST['review-title'];
     $date = date('Y-m-d H:i:s');
-    $review = $_POST['review'];
+    $review = $_POST['review-text'];
     $item_id = $_POST['item_id'];
     $rating = $_POST['rating'];
 
